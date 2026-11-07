@@ -1,0 +1,2 @@
+# autoscreenshot
+MAME autoscreenshot
