@@ -5,12 +5,12 @@ mame <romname> -skip_gameinfo -autoboot_script autoscreenshot.lua
 
 It runs thesefive steps in order. The options are in a table at the top of the file:
 
-Option								Default		Step
-wait_before_coin_seconds			5			1. real seconds to wait before the coin
-insert_coin							true		2. insert a coin or not
-start_game							true		3. press the 1-player start button or not
-wait_before_screenshot_seconds		10			4. real seconds to wait before the screenshot
-exit_mame							true		5. exit MAME afterwards or not
+Option								Default		Step <br>
+wait_before_coin_seconds			5			1. real seconds to wait before the coin <br>
+insert_coin							true		2. insert a coin or not <br>
+start_game							true		3. press the 1-player start button or not <br>
+wait_before_screenshot_seconds		10			4. real seconds to wait before the screenshot <br>
+exit_mame							true		5. exit MAME afterwards or not <br>
 
 If a step is turned off, the script skips it and carries on with the next one.
 
