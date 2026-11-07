@@ -2,6 +2,8 @@
 -- MAME Lua script: wait -> insert coin -> start game -> wait -> screenshot -> exit
 --
 -- Usage:
+-- Copy autoscreenshot.lua to your MAME folder
+-- 
 --   mame <romname> -skip_gameinfo -autoboot_script autoscreenshot.lua
 --
 -- Set skip_warnings to 1 in your ui.ini

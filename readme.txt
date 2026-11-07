@@ -1,3 +1,5 @@
+Copy autoscreenshot.lua to your MAME folder
+
 mame <romname> -skip_gameinfo -autoboot_script autoscreenshot.lua
 
 It runs thesefive steps in order. The options are in a table at the top of the file:
